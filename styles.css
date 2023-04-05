@@ -1,15 +1,28 @@
-html,
+img{
+width: 40lvw;
+margin-left: 20lvw;
+margin-right: 20lvw;
+}
+
+h1{
+text-align:center;
+font-size: 35px;
+
+}
+
 body {
-    margin: 0;
-    padding: 0;
+
+
     width: 100%;
     height: 100vh;
-    display: flex;
+    display:inline-block;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background: #503077;
+    background: #1f1847;
+    color:cornsilk;
 }
+
 
 .glow-on-hover {
     width: 220px;
@@ -69,4 +82,26 @@ body {
     0% { background-position: 0 0; }
     50% { background-position: 400% 0; }
     100% { background-position: 0 0; }
+}
+textarea{
+    display:block;
+    background-color: #503077;
+    font-style: italic;
+    border-radius: 12px;
+}
+
+input[type="text"] {
+    background-color : #503077;
+    border-radius: 12px;
+  }
+input[type="email"] {
+    background-color : #503077;
+    border-radius: 12px;
+  }
+  input[type="number"] {
+    background-color : #503077;
+    border-radius: 12px;
+  }
+.referrer, .role{
+    border-radius: 12px;
 }
